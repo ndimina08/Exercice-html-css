@@ -1,0 +1,64 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#allo
+{
+   display: flex; 
+   margin-left: 200px;
+}
+.logo img 
+{
+    width: 200px;
+    height: 200px;
+    margin-top: -70px;
+}
+.navLink
+{
+    display: flex;
+    margin-left: 400px;
+}
+.navLink li 
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.navLink a 
+{
+    text-decoration: none;
+    color: #ABABAB;
+}
+.navLink a:hover
+{
+    color: #45C7B6;
+}
+.red{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 30px;
+}
+.red:hover
+{
+    background-color: black;
+}
+.red1{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.red2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+}
